@@ -14,7 +14,6 @@ int height (struct node * root);
 void main(){
     construct();
     display(root);
-    printf("height of tree is %d\n",height(root));
 }
 void construct(){
     root = create();

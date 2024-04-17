@@ -3,14 +3,14 @@ void mergesort(int A[], int low, int high);
 void merge(int A[], int low, int mid, int high);
 void printarray(int a[], int n);
 int main(){
-     int A[]={9,3,7,5,6,4,8,2};
+     int A[]={12,11,13,5,6,7};
      int n = sizeof(A)/sizeof(A[0]);
      printf("original array is:\n");
      for (int i = 0; i < n; i++) {
         printf("%d\t", A[i]);
     }
      mergesort(A,0,n-1);
-     printf("sorted array is:\n");
+     printf("\nsorted array is:\n");
      for (int i = 0; i < n; i++) {
         printf("%d\t", A[i]);
     }

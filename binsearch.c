@@ -21,7 +21,7 @@ int iterative_binary_search(int arr[], int n, int target) {
 int main() {
     int arr[] = {1, 6,7,3,5,2};
     int n = sizeof(arr) / sizeof(arr[0]);
-    int target = 10;
+    int target = 7;
     
     int index = iterative_binary_search(arr, n, target);
     if (index != -1) {
